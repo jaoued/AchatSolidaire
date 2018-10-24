@@ -1,0 +1,8 @@
+jQuery(document).ready(function() {
+    var rightColumn = $('.document:first > .header:first > .rightColumn:first');
+    /*
+    var header = jQuery(".document:first > .header:first");
+    header.prepend(" <table width=970 border=0 cellspacing=0 cellpadding=0 align=center><tr valign=top><td style=\"width: 310px;height:120\"><a href=\"/\" style=\"display: inline-block;\" ><img src=\"/App_Themes/clubofup/images/logo_ofup.png\" alt=\"Club-OFUP\" width=\"310\" height=\"120\" style=\"border-width:0px;padding-left:18px\" /></a></td><td style=\"width: 660px; height: 120px;\"><div align=\"right\">"
+    + "</div></td></tr></table>");
+    */
+});

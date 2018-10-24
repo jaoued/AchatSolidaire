@@ -1,0 +1,1103 @@
+﻿/*
+file last modified by: $Author: Julien $
+file last modified on: $Modtime: 27/03/12 18:05 $
+*/
+/* ------------------------------------------------------------------------------------------------------ */
+/*                                             graphist elements                                          */
+/* ------------------------------------------------------------------------------------------------------ */
+body
+{
+    background: #E0DFDD url('images/smooth-bg.png') repeat-y top center ;
+    background-color: #fff !important;
+	font-family: "Lucida Grande" , Arial, Helvetica, sans-serif;
+    color: #333;   
+}
+
+
+a
+{
+    color: #333;
+}
+
+a[disabled], *[disabled] a
+{
+    color: #d9dadb;
+}
+
+h1
+{
+    font-size: 1.6em;
+    font-weight: normal;
+    color: #000;
+    text-align: center;
+    margin: 20px 0;
+    padding: 0px;
+}
+
+h2
+{
+   /*font-size: 1.4em;*/
+    font-weight: bold;
+    color: #E2001A;
+    /*text-transform: uppercase;*/
+    margin: 20px 0;
+    padding: 0px;
+}
+
+h2.home
+{
+    border-bottom-color: #F00;
+}
+
+h3
+{
+    color: black;
+    /*font-size: 1.25em;*/
+    background-image: url(images/bulletH3.gif);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    padding: 0 0 0 14px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+p a
+{
+    color: #333;
+}
+
+p a:hover
+{
+    color: red;
+}
+
+p a.bis
+{
+    color: red;
+}
+
+a.back:hover, a.next:hover
+{
+    color: #F00;
+}
+
+.button, .button1_center a, .button2_center a
+{
+    padding: 0 25px 0 13px;
+    color: white;
+}
+
+.button:hover, .button1_center a:hover, .button2_center a:hover
+{
+    color: #000000;
+}
+
+.titleNI
+{
+    font-size: 18pt;
+    font-family: Arial;
+    position: relative;
+    left: -20px;
+}
+
+.clubFullSecondColor, .clubTextSecondColor
+{
+    color: red;
+}
+
+.clubFullSecondColor, .clubBorderSecondColor
+{
+    border-color: red;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------ */
+/*								                  page layout                                             */
+/* ------------------------------------------------------------------------------------------------------ */
+
+.header
+{
+	/*background:  url('images/dot_top.png') no-repeat left top;*/
+	height: 100px; /* header height + lightSpacer + lineHeight */
+	background-color:#ffffff;
+
+		
+}
+
+.header .leftColumn
+{
+    width: 270px;
+    height: 100px;
+    float: left;
+	border :none;
+}
+
+.header .rightColumn
+{
+    width: 720px;
+    height: 100px;
+    float: right;
+    position: relative;
+	border:none;
+}
+
+.document .contentWrap .border
+{
+    border-right: solid 1px #CCCCCC;
+    border-left: solid 1px #CCCCCC;
+    border-bottom: solid 1px #CCCCCC;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/*                                             global layout                                              */
+/* ------------------------------------------------------------------------------------------------------ */
+
+.error
+{
+    color: Red;
+}
+
+.controlError
+{
+    border-color: Red;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/*                                         content header layout                                          */
+/* ------------------------------------------------------------------------------------------------------ */
+
+.content .ContentHeaderPanel h2
+{
+    width: 500px;
+}
+
+.content .ContentHeaderPanel h3
+{
+    width: 500px;
+}
+
+.contentFull .ContentHeaderPanel h2
+{
+    /*width: 640px;*//**AJOUT ML SUITE SUPPRESSION PICTOS**/
+	 width: 771px;
+}
+.contentFull .ContentHeaderPanel h3
+{
+    /*width: 626px;*//**AJOUT ML SUITE SUPPRESSION PICTOS**/
+	width: 706px;
+}
+
+/*
+.ContentHeaderCategoryPanel, .ContentHeaderSubCategoryPanel
+{
+	float: left;
+}
+*/
+
+.content .ContentHeaderNavigationBlock, .content .ContentHeaderCategoryPanel, .content .ContentHeaderSubCategoryPanel
+{
+	width: 500px;
+	margin-left:10px;
+}
+
+.contentFull .ContentHeaderNavigationBlock, .contentFull .ContentHeaderCategoryPanel, .contentFull .ContentHeaderSubCategoryPanel
+{
+	width: 500px;
+}
+
+.ContentHeaderNavigationBlock {
+height:0px;}
+
+/**AJOUT ML SUITE SUPPRESSION PICTOS**/
+h2.home{margin-top:15px}
+
+
+/* ------------------------------------------------------------------------------------------------------ */
+/*                                               menu layout                                              */
+/* ------------------------------------------------------------------------------------------------------ */
+
+/**special CSS**/
+.shopmenuPanelAlphabetLink
+{
+    width: 11px;
+    font-family: Arial;
+    font-size: 13px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.shopmenuPanelAlphabetLinkON
+{
+    font-family: Arial;
+    font-size: 13px;
+    color: #666666;
+    text-decoration: none;
+    width: 11px;
+}
+
+.shopmenuPanelAlphabet /**same background-color as myspace**/
+{
+    background-color: red;
+    font-size: 14px;
+    padding-left: 2px;
+    text-transform: uppercase;
+    margin: 12px 0px 12px 0px;
+}
+.shopmenuPanelAlphabetLink:hover
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.menuTableCellSearch {
+    width: 400px;
+    border: 1px solid #666666;
+    position: relative;
+}
+
+.menuElementDiv, .menuElementDivHover
+{
+    width: 140px;
+    border-bottom: solid 1px #666666;
+    border-left: solid 1px #666666;
+    border-top: solid 1px #666666;
+}
+
+.menuElementDiv .menuElement, .menuElementDivHover .menuElement
+{
+    width: 140px;
+    color: #FFFFFF;
+}
+
+.menuElementDiv
+{
+    background: url("images/nav-bg-normal.png");
+}
+
+.menuElementDivHover
+{
+    background: url("images/nav-bg-hover.png");
+}
+
+.menuElementHome
+{
+    width: 43px;
+}
+
+.menuElementHome > .menuElement
+{
+    width: 43px;
+    text-align: center;
+    height: 23px;
+    padding-top: 7px;
+    padding-bottom: 6px;
+    display: block;
+}
+
+.menuElementCashBack
+{
+    width: 188px;
+}
+
+.menuElementCashBack > .menuElement
+{
+    width: 188px;
+}
+
+.menuElementMailBox
+{
+    width: 189px;
+}
+
+.menuElementMailBox > .menuElement
+{
+    width: 189px;
+}
+
+.menu .menuLastElement
+{
+    width: 142px;
+    border: 1px solid #666666;
+}
+
+.menu .menuSubPanel
+{
+    display: none;
+    width: 200px; /* graphist remove that */
+    background-color: #CCCCCC;
+}
+
+.menuSubPanel .menuSubElement, .menuSubPanel .menuSubElement:hover
+{
+    display: block;
+    padding: 4px 10px 4px 10px;
+    text-decoration: none;
+    font-size: 13px;
+    width: 180px; /* graphist remove that */
+}
+
+.menuSubPanel .menuSubElement
+{
+    color: #333333;
+}
+
+.menuSubPanel .menuSubElement:hover
+{
+    color: #FFFFFF;
+    background-color: #999999;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/*                                             menu specific element                                      */
+/* ------------------------------------------------------------------------------------------------------ */
+
+.menu .menuSubPanelPP
+{
+    width: 190px;
+}
+
+.menuSubPanelPP .menuSubElement, .menuSubPanelPP .menuSubElement:hover
+{
+    width: 170px;
+}
+
+.menu .menuSubPanelCashBack
+{
+    width: 240px;
+}
+
+.menuSubPanelCashBack .menuSubElement, .menuSubPanelCashBack .menuSubElement:hover
+{
+    width: 220px;
+}
+
+.menu .menuSubPanelServices
+{
+    width: 270px;
+}
+
+.menuSubPanelServices .menuSubElement, .menuSubPanelServices .menuSubElement:hover
+{
+    width: 250px;
+}
+
+.menu .menuSubPanelMailbox
+{
+    width: 220px;
+}
+
+.menuSubPanelMailbox .menuSubElement, .menuSubPanelMailbox .menuSubElement:hover
+{
+    width: 200px;
+}
+
+.menu .menuSubPanelFavorite
+{
+    width: 220px;
+}
+
+.menuSubPanelFavorite .menuSubElement, .menuSubPanelFavorite .menuSubElement:hover
+{
+    width: 200px;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/*                                                search layout                                           */
+/* ------------------------------------------------------------------------------------------------------ */
+
+.search
+{
+    background: white url('images/search-bg.jpg') no-repeat 4px 0;
+    border: solid 1px #CCCCCC;
+}
+
+.search span.first
+{
+    color: Red;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/*                                       WucUniverseMenu.ascx layout                                      */
+/* ------------------------------------------------------------------------------------------------------ */
+.universeMenu .body
+{
+    /*background: url('images/universe-bg.png') repeat-y;*/
+	background-color:#F8F8F8;
+	border-left: solid 1px #CCCCCC;
+	border-right: solid 1px #CCCCCC;
+	border-bottom: solid 1px #CCCCCC;
+}
+
+.universeMenu .wucUniverseMenuAll, .universeMenu .wucUniverseMenuAll:hover
+{
+    color: red;
+    background: url('images/bulleth3.gif') no-repeat 12px 0px;
+}
+
+.universeElement, .universeElementHover
+{
+    color: #666666;
+}
+
+.universeElementHover:hover
+{
+    background-color: #CCCCCC;
+    color: #FFFFFF;
+}
+
+.segmentsPanel
+{
+    background: #CCCCCC;
+    width: 240px;
+}
+
+.segmentElement, .segmentElement:hover
+{
+    background: #CCCCCC;
+    color: #666666;
+}
+
+.segmentElement:hover
+{
+    color: #FFFFFF;
+    background-color: #999999;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/*                                             MpMainBase.master                                          */
+/* ------------------------------------------------------------------------------------------------------ */
+
+/* Connect/Disconnect*/
+
+.connect
+{
+    font-size: 10px;
+ 
+}
+
+.Logout
+{
+	display:none;
+}
+.MainBaseLostPassword
+{
+    display: inline-block;
+    font-size: 11px;
+    color: red;
+    display:none;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/*                                             NmpMainFull.master                                          */
+/* ------------------------------------------------------------------------------------------------------ */
+
+.mySpace .name, .MyCBAccountLnk a, .MyCBAccountLnk span, table.DataConversion tr.RedConversion td
+{
+    color: red;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/*                                               footer layout                                            */
+/* ------------------------------------------------------------------------------------------------------ */
+.footer
+{
+    border: solid 1px #CCCCCC;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/*                                              Default.aspx layout                                       */
+/* ------------------------------------------------------------------------------------------------------ */
+
+.homeImportant, .linkBody
+{
+    color: Red;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/*                                                 table layout                                           */
+/* ------------------------------------------------------------------------------------------------------ */
+table.Data
+{
+    border-color: Black;
+}
+
+table.Data th a, table.Data tr.DataSecondTitle, table.Data td.DataSecondTitle, table.Data th.DataSecondTitle, .buttonConversion
+{
+    background-color: red;
+}
+
+/* ------------------------- */
+/*  Generic accordion style  */
+/* ------------------------- */
+
+.AccordionHeader
+{
+    color: #d11f39;
+}
+
+/* ------------------------- */
+/*  Seller accordion style  */
+/* ------------------------- */
+
+.SellerAccordionHeader a:hover
+{
+    color: #d11f39;
+}
+
+.SellerAccordionHeaderSelected
+{
+    color: Red;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/*                                        WF_WebMail.aspx layout                                          */
+/* ------------------------------------------------------------------------------------------------------ */
+
+.WebMailSelectedTab
+{
+    background: red;
+}
+
+.mailPopin
+{
+    background: #C0C0C0;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/*                                                 defaultNi                                              */
+/* ------------------------------------------------------------------------------------------------------ */
+
+.homePopin .buttonBar .tab1, .homePopin .buttonBar .tab5
+{
+    width: 175px;
+}
+
+.homePopin .buttonBar .tab2, .homePopin .buttonBar .tab3
+{
+    width: 182px;
+}
+
+.homePopin .buttonBar .tab4
+{
+    width: 196px;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/*                                                 barredenav                                           */
+/* ------------------------------------------------------------------------------------------------------ */
+
+
+
+.menuTableCellHome {
+    width: 43px;
+    border-left: solid 1px #666666;
+    border-top: solid 1px #666666;
+    border-bottom: solid 1px #666666;
+}
+
+.menuTableElementHome {
+    background-image: url('images/nav-bg-normal.png');
+    background-repeat: repeat-x;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    width: 43px;
+}
+
+.menuTableElementHome:hover {
+    background-image: url('images/nav-bg-hover.png');
+}
+
+.menuTableElementHome img {
+    vertical-align: middle;
+}
+
+.menuTableCellSearch {
+    width: 400px;
+    border: 1px solid #666666;
+    position: relative;
+}
+
+.menuTableElementSearch {
+    /*width: 400px;*/ /*specificAR*/
+    height: 36px;
+    position: relative;
+}
+
+.menuTableElementSearchImage 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    
+    
+    vertical-align: middle;
+}
+
+.menuTableElementSearchText 
+{
+    position: absolute;
+    top: 0px;
+    left: 34px;
+    bottom: 0px;
+    right: 25px;
+
+    cursor: pointer;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 36px;
+    height: 36px;
+    text-align: center;
+    background-color: white;
+
+    font-family:Arial;
+    font-size:12px;
+    color: #999999;
+}
+
+.menuTableElementSearchButtonContainer 
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+
+    cursor: pointer;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 36px;
+}
+
+.menuTableElementSearchButtonImageHover 
+{
+    display: none;
+}
+
+.menuTableElementSearchButtonContainer:hover .menuTableElementSearchButtonImage {
+    display: none;
+}
+
+.menuTableElementSearchButtonContainer:hover .menuTableElementSearchButtonImageHover  {
+    display: inline-block;
+}
+
+.menuTableCellCodes {
+   /* width: 150px;*/
+    border-top: solid 1px #666666;
+    border-bottom: solid 1px #666666;
+}
+
+.menuTableElementCodes {
+    background-image: url('images/nav-bg-normal.png');
+    background-repeat: repeat-x;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+	font-size:13px;
+	font-weight:bold;
+	padding:0px 5px 0px 5px;
+    /*border-left: solid 1px #666666;*/
+}
+
+.menuTableElementCodes:hover {
+    background-image: url('images/nav-bg-hover.png');
+}
+
+.menuTableCellHowTo {
+    /* width: 150px;*/
+    border-top: solid 1px #666666;
+    border-bottom: solid 1px #666666;
+
+}
+
+.menuTableElementHowTo {
+    background-image: url('images/nav-bg-normal.png');
+    background-repeat: repeat-x;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    border-left: solid 1px #666666;
+	font-size:13px;
+	font-weight:bold;
+	white-space: nowrap;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.menuTableElementHowTo:hover {
+    background-image: url('images/nav-bg-hover.png');
+}
+
+.menuTableCellSelection {
+    border-top: solid 1px #666666;
+    border-bottom: solid 1px #666666;
+	width:180px;
+}
+
+.menuTableElementSelection {
+    background-image: url('images/nav-bg-normal.png');
+    background-repeat: repeat-x;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    border-left: solid 1px #666666;
+		font-size:13px;
+	font-weight:bold;
+	padding:0 5 0 5;
+}
+
+.menuTableElementSelection:hover {
+    background-image: url('images/nav-bg-hover.png');
+}
+
+
+/*AJOUT ML BYPASS*/
+
+.menuTableElementSearchText {
+background-color:#F8F8F8;
+color:#666666;
+}
+
+.shopmenuPanel {
+background-color:#F8F8F8;
+}
+
+.shopmenuPanelLink{
+	margin-left:5px;
+	padding-left:10px;
+	display:block;
+	line-height: 18px;
+	font-family: Arial;
+	color: #666;
+	font-size: 13px;
+	text-decoration: none;
+	padding: 3px;
+}
+
+.shopmenuPanelAdvantage{
+	float:right;
+	display:block;
+   	margin-right:5px;
+	color:#5D000A;
+	font-size:12px;
+	padding: 2px;
+	top:1px;
+}
+
+.shopmenuPanelLink:hover
+{
+	color:#5D000A;
+    text-decoration: underline;
+    background-color: #DEDEDE;
+
+}
+
+.shopmenuPanel
+{	border-right: 2px solid #E2001A;
+}
+
+.universeElementHover {
+background-color: #DEDEDE;
+color:#5D000A;
+}
+.universeElement:Hover {
+color:#5D000A;
+}
+.universeElementLink:Hover{
+color:#5D000A;
+
+}
+
+.segmentElement {
+padding-bottom:2px;
+background-color: #F8F8F8;
+color:#666666;
+}
+.segmentElement:Hover {
+padding-bottom:2px;
+background-color: #DEDEDE;
+color:#5D000A;
+text-decoration:underline;
+}
+.segmentsPanel {
+background-color: #F8F8F8;
+border-top:1px solid #CCCCCC;
+border-right:1px solid #CCCCCC;
+border-bottom:1px solid #CCCCCC;
+border-left:1px solid #E0E0E0;
+padding-top:6px;
+padding-bottom:6px;
+}
+.shopmenuPanelAlphabetLink{
+font-weight:bold;
+font-size:12px;}
+
+.shopmenuPanelAlphabetLinkON{
+font-weight:bold;
+font-size:12px;
+color:#5D000A;}
+
+.navBar{
+background-color: #F0F0F0;
+}
+
+.divNavBarOpenSiteEltLeft{
+background-color: #F0F0F0;
+}
+
+.servicesLink{
+display:none;
+}
+
+.segmentItem {
+font-size:12px;
+}
+.segmentItem:Hover {
+color:#5D000A;
+}
+
+.segmentItemSelected{
+font-size:12px;
+color:#5D000A;
+text-decoration:none;
+}
+
+.segmentPage h2.home {
+text-transform: none;
+margin-bottom: 12px;
+}
+
+
+/*.segmentControl h2.homeSegment a {display:none;}*/
+
+/*.contentFull .mediumSpacer{display:none;}*/
+
+.contentOneColumn {
+width: 990px;
+}
+
+.homeWelcome .action {position:relative;top:-20px;}
+
+.homeWelcome .information {position:relative;top:-20px;}
+.connect
+{
+    font-size: 10px;
+    color: #E2001A;
+	
+}
+
+.contentOneColumn {
+width: 990px;
+}
+
+.homeWelcome .action {position:relative;top:-20px;}
+
+.homeWelcome .information {position:relative;top:-20px;}
+.connect
+{
+    font-size: 10px;
+    color: #E2001A;
+	
+}
+
+
+.headerAction
+{
+   top:0px;
+   padding:5px;
+   position:absolute;
+   right:3px;
+   background:rgba(255,255,255,0.1);
+}
+
+#ctl00_ctl00_cph_main_cph_main_PanelNotMember{margin-top:50px;}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/*                                                topbanner                                               */
+/* ------------------------------------------------------------------------------------------------------ */
+
+.topbanner{ display: inline-block;
+position: absolute;
+left: 50%;
+margin-left: -230px;
+padding :5px ;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+/*                                              topseller                                                  */
+/* ------------------------------------------------------------------------------------------------------- */
+
+#carousel-image-and-text .touchcarousel-item:hover {
+border-color: red;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------- */
+/*                                            OtherSpecial                                                 */
+/* ------------------------------------------------------------------------------------------------------- */
+/*
+.button_don
+{
+    display:block;
+    /*background: url('images/bouton_don.png') no-repeat ;
+    height: 50px !important;
+	width: 332px !important;
+    text-decoration: none;
+	padding-top: 12px !important;
+	font-size: 12px;
+	font-weight:600;
+	line-height: 1.3em !important;
+	text-transform: none !important;
+	font-family: "Lucida Grande" , Arial, Helvetica, sans-serif;
+    color: white;
+	text-align: center !important;
+	vertical-align : middle !important;
+}*/
+
+/* ------------------------------------------------------------------------------------------------------ */
+/*                                            conform popin                                               */
+/* ------------------------------------------------------------------------------------------------------ */
+.confirmPopinButtonContainer
+{
+    text-align: center;
+}
+
+.confirmPopinButton
+{
+    margin: 0 15px;
+    width: 75px;
+    display: inline-block;
+    background: url('images/button-bg.png') no-repeat right center;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0 25px 0 13px;
+    color: white;
+	
+}
+
+
+/*****My CBAccount - Bouton J'encaisse****************/
+
+.button_v
+{
+    display: block;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: solid 1px #E2E2E2 !important;
+    margin: 0 ;
+    padding: 0;
+    vertical-align: middle;
+    background-color: #ff0000;
+    text-align:center;
+    color: #FFF !important;
+    padding-top: 8px;
+    padding-right: 4px;
+    padding-bottom: 8px;
+    padding-left: 4px;
+    font-weight: bold;
+    font-size:13px;
+    width:150px;
+    text-decoration: none;
+    margin-left:16px;
+    margin-bottom:4px;
+    float:left;
+}
+
+.button_v:hover
+{
+    background-color:#C60800;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+/*                                            FOOTER (JSG 24.10.2017)                                     */
+/* ------------------------------------------------------------------------------------------------------ */
+
+.footerBloc
+{
+    height: 20px;
+    line-height: 20px;
+    background-color: #e7e7e7;
+    border: none!important;
+    vertical-align: top;
+	border-collapse: collapse;
+	border-spacing:0;
+	padding: 0px 5px 0px 10px;
+	display: block;
+    overflow: hidden;
+}
+
+.footerBlocBottom
+{
+    height: 20px;
+    line-height: 20px;
+    background:url('/_ExternalContent/fr/images/_common/footer/footer_borderbtm.png') no-repeat;
+    border: none!important;
+    vertical-align: top;
+	display: block;
+    overflow: hidden;
+}
+
+.footerPromotor
+{
+    border:none; 
+	border-bottom:1px solid #b5b8bf;
+	line-height:35px;
+	height:35px;
+}
+
+.footerTable
+{
+    background-color: none!important;
+    border: none!important;
+    margin-top:0px
+}
+
+.footerTableFirstRowCol
+{
+    border: none!important;
+	padding:10px!important;
+}
+
+.footerTitleLink
+{
+	display: block;
+    color: #666666;
+    font-weight: bold;
+    margin-bottom: 12px;
+    font-size: 13px;
+}
+
+.footerTitleLink:hover
+{
+    color : #3c3c3c;
+	text-decoration:underline!important;
+}
+
+.footerBlocColRow
+{
+    width: 25%;
+	padding:10px;
+	border:none;
+	border-right:1px solid #d8d8d8;
+    padding: 5px 5px 10px 10px;
+    vertical-align: top;
+}

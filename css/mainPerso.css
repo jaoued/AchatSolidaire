@@ -1,0 +1,94 @@
+
+/* formulaire inscription */
+.form-Commun,.form-Commun-master{	display:none; }
+.class-visible{display:block;}
+.class-hidden{display:none;}
+
+
+/* formulaire inscription */
+.cart2, .cartWishlist, .cartPanier {
+    background: #FE980F;
+    border: 0 none;
+    border-radius: 0;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+ .cartWishlist {
+    background: grey;
+}
+
+ .cartPanier {
+    background: grey;
+}
+
+.modemploi {
+    background: #FE980F;
+    border-radius: 0;
+    color: #FFFFFF;
+    margin-top: 18px;
+    border: none;
+    padding: 5px 5px;
+}
+
+
+
+.imageCarousselIndex {
+    height: 352px;
+}
+
+.fondblanc{font-size:1.1em; color:white;}
+.fondblanc2{font-size:2em; color:white;}
+#fondblanc{font-size:1.1em; color:white; }
+
+.header_top0, .header_top{	background-color:skyblue;}
+
+.majuscule{	text-transform: uppercase;}
+
+.selectlongueur{	width:156px; }
+
+input, select2{color:#ff4000; border-radius:16px;}
+
+.input2{border-radius:0 16px 16px 0 ;position : relative;right:3px;	height:30px;}
+.input0 {margin-left:30px;}
+.input3{border-radius: 16px  ; height:60px; width:108px;}
+.input4 {
+    border-radius: 20px;
+    height: 52px;
+    width: 175px;
+    background-color: #96c8d2;
+    line-height: 18px;
+}
+
+
+.mainmenu ul li a {
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+}
+.input3:hover{background-color:blue;}
+#barrerecherche{position : relative;right:-70px;	}
+
+#logo{position : relative;right:3px;	height:30px;}
+.contactinfo2{line-height:1px;}
+
+
+#barresousmenu {     padding-top: 10px;}
+
+
+.carousel-inner {     background-color: beige;}
+.supcontout {     background-color: yellow;}
+.spansh1slider{font-size:0.7em;}
+#slider {
+    padding: 0;
+    padding-bottom: 30px;
+}
+.bloc1 {
+
+    pdding: 0;
+    height: 352px;
+}
